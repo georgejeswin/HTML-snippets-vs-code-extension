@@ -1,1 +1,40 @@
-{}
+{
+  "html-tag": {
+    "prefix": "html",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html>",
+      "\t<head>",
+      "\t\t<meta charset=\"UTF-8\">",
+      "\t\t<title>${1:Document}</title>",
+      "\t</head>",
+      "\t<body>",
+      "\t\t${2}",
+      "\t</body>",
+      "</html>"
+    ],
+    "description": "Basic HTML skeleton"
+  },
+  "style-tag": {
+    "prefix": "css",
+    "body": [
+      "<style>",
+      "\t${1:selector} {",
+      "\t\t${2:property}: ${3:value};",
+      "\t}",
+      "</style>"
+    ],
+    "description": "CSS tag with selector template"
+  },
+  "script-tag": {
+    "prefix": "script",
+    "body": [
+      "<script src='./script.js'>",
+      "\t function myFunction() {",
+      "\t\t return true;",
+      "\t}",
+      "</script>"
+    ],
+    "description": "Script tag"
+  }
+}

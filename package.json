@@ -1,14 +1,18 @@
 {
-  "name": "bootstrap-snippets",
-  "displayName": "bootstrap-snippets",
+  "name": "html-skelton-snippets",
+  "displayName": "html-skelton-snippets",
   "description": "",
   "version": "0.0.1",
+  "publisher": "jeswingdev",
   "engines": {
     "vscode": "^1.77.0"
   },
   "categories": [
     "Snippets"
   ],
+  "repository": {
+    "url": "https://github.com/georgejeswin/HTML-snippets-vs-code-extension"
+  },
   "contributes": {
     "snippets": [
       {
