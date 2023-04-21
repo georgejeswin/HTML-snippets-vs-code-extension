@@ -1,7 +1,7 @@
 {
   "name": "html-skelton-snippets",
   "displayName": "html-skelton-snippets",
-  "description": "",
+  "description": "html, css, js skelton snippets for tags",
   "version": "0.0.1",
   "publisher": "jeswingdev",
   "engines": {
@@ -20,5 +20,6 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
-  }
+  },
+  "pricing": "Free"
 }
